@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MainPage">
+
+    <StackLayout Padding="20" Spacing="5" BackgroundColor="Gray">
+        <Entry x:Name="txtCEP" Placeholder="CEP" Keyboard="Numeric" PlaceholderColor="AntiqueWhite" TextColor="Black""/>
+        <Button FontAttributes="Bold" Text="Pesquisar" Clicked="Button_Clicked" />
+
+        <StackLayout BackgroundColor="AntiqueWhite" Spacing="2">
+            <Label FontAttributes="Bold" Text="Logradouro" TextColor="Black"/>
+            <Label x:Name="txtLogradouro" FontAttributes="Bold" TextColor="Black"/>
+        </StackLayout>
+
+        <StackLayout BackgroundColor="AntiqueWhite" Spacing="2">
+            <Label FontAttributes="Bold" Text="Complemento" TextColor="Black"/>
+            <Label x:Name="txtComplemento" FontAttributes="Bold" TextColor="Black"/>
+        </StackLayout>
+
+        <StackLayout BackgroundColor="AntiqueWhite" Spacing="2">
+            <Label FontAttributes="Bold" Text="Bairro" TextColor="Black"/>
+            <Label x:Name="txtBairro" FontAttributes="Bold" TextColor="Black"/>
+        </StackLayout>
+
+        <StackLayout BackgroundColor="AntiqueWhite" Spacing="2">
+            <Label FontAttributes="Bold" Text="Localidade" TextColor="Black"/>
+            <Label x:Name="txtLocalidade" FontAttributes="Bold" TextColor="Black"/>
+        </StackLayout>
+
+        <StackLayout BackgroundColor="AntiqueWhite" Spacing="2">
+            <Label FontAttributes="Bold" Text="UF" TextColor="Black"/>
+            <Label x:Name="txtUF" FontAttributes="Bold" TextColor="Black"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
+ 
